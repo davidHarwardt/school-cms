@@ -13,6 +13,12 @@ const Authors: CollectionConfig = {
         {
             name: "username",
             type: "text",
+            required: true,
+        },
+        {
+            name: "slug",
+            type: "text",
+            required: true,
         },
     ],
 };

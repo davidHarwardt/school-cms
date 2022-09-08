@@ -15,8 +15,18 @@ const Articles: CollectionConfig = {
             required: true,
         },
         {
-            name: 'content',
-            type: 'text',
+            name: "slug",
+            type: "text", 
+            required: true,
+        },
+        {
+            name: "content",
+            type: "textarea",
+            required: true,
+        },
+        {
+            name: "description",
+            type: "text",
             required: true,
         },
         {
